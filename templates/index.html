@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Main page</title>
+</head>
+<body>
+    <form method="post">
+        <input type="number" placeholder="Сума оплати" name="amount" step="0.01">
+        <p>
+            <select name="Currency">
+                <option disabled selected> Виберіть валюту </option>
+                <option value="978">EUR</option>
+                <option value="840">USD</option>
+                <option value="643">RUB (not recommended)</option>
+            </select>
+        </p>
+        <p><textarea name="description" cols="40" rows="5" placeholder="Опис товару"></textarea></p>
+        <button type="submit" value="send">Відправити</button>
+    </form>
+</body>
+</html>
